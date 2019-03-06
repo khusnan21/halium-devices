@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="wt88047"
-        fetch="https://github.com/halium-for-wt88047"
+    <remote name="kenzo"
+        fetch="https://github.com/sailfishos-kenzo"
         revision="Halium-7.1" />
 
-    <project path="device/cyanogen/msm8916-common" name="Halium/android_device_cyanogen_msm8916-common" remote="hal" />
-    <project path="device/wingtech/wt88047" name="Halium/android_device_wingtech_wt88047" remote="hal" />
+    <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="hal" />
+    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="hal" />
 
-    <project path="kernel/wingtech/msm8916" name="Halium/android_kernel_wingtech_msm8916" remote="hal" />
+    <project path="kernel/xiaomi/msm8956" name="escrima_kernel_xiaomi_msm8956" remote="hal" />
 
-    <project path="vendor/wingtech" name="proprietary_vendor_wingtech" remote="wt88047" />
+    <project path="vendor/kenzo" name="proprietary_vendor_xiaomi" remote="kenzo" />
 </manifest>
