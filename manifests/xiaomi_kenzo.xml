@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="kenzo"
+        fetch="https://github.com/sailfishos-kenzo"
+        revision="Halium-7.1" />
+
+    <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" remote="hal" />
+    <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="hal" />
+
+    <project path="kernel/xiaomi/msm8956" name="escrima_kernel_xiaomi_msm8956" remote="hal" />
+
+    <project path="vendor/kenzo" name="proprietary_vendor_xiaomi" remote="kenzo" />
+</manifest>
